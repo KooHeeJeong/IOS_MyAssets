@@ -16,6 +16,8 @@ struct AssetView: View {
                     AssetMenuGridView()
                     AssetBanerView()
                         .aspectRatio(5/2,contentMode: .fit)
+                    AssetSummaryView()
+                        .environmentObject(AssetSummaryData())
                 }
                 .background(Color.gray.opacity(0.2))
                 .navigationBarWithButtonStyle("내 자산")
