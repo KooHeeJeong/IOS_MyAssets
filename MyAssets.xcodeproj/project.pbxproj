@@ -20,6 +20,8 @@
 		388BC61B28560E26006370A3 /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388BC61A28560E26006370A3 /* Asset.swift */; };
 		388BC61D28560F5A006370A3 /* AssetSummaryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388BC61C28560F5A006370A3 /* AssetSummaryData.swift */; };
 		388BC61F28561125006370A3 /* AssetSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388BC61E28561125006370A3 /* AssetSectionHeaderView.swift */; };
+		38E14A32285CB34200087733 /* TapMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E14A31285CB34200087733 /* TapMenuView.swift */; };
+		38E14A34285CB9B600087733 /* AssetCardSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E14A33285CB9B600087733 /* AssetCardSectionView.swift */; };
 		38E5B5DE285619D2004107B9 /* AssetSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E5B5DD285619D2004107B9 /* AssetSectionView.swift */; };
 		38E5B5E028561BE6004107B9 /* AssetSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E5B5DF28561BE6004107B9 /* AssetSummaryView.swift */; };
 		38F106FC284E127200B2D81C /* NavigationBarWithButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F106FB284E127200B2D81C /* NavigationBarWithButton.swift */; };
@@ -45,6 +47,8 @@
 		388BC61A28560E26006370A3 /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
 		388BC61C28560F5A006370A3 /* AssetSummaryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetSummaryData.swift; sourceTree = "<group>"; };
 		388BC61E28561125006370A3 /* AssetSectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetSectionHeaderView.swift; sourceTree = "<group>"; };
+		38E14A31285CB34200087733 /* TapMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapMenuView.swift; sourceTree = "<group>"; };
+		38E14A33285CB9B600087733 /* AssetCardSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetCardSectionView.swift; sourceTree = "<group>"; };
 		38E5B5DD285619D2004107B9 /* AssetSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetSectionView.swift; sourceTree = "<group>"; };
 		38E5B5DF28561BE6004107B9 /* AssetSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetSummaryView.swift; sourceTree = "<group>"; };
 		38F106FB284E127200B2D81C /* NavigationBarWithButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarWithButton.swift; sourceTree = "<group>"; };
@@ -145,6 +149,8 @@
 				38E5B5DD285619D2004107B9 /* AssetSectionView.swift */,
 				38E5B5DF28561BE6004107B9 /* AssetSummaryView.swift */,
 				388BC61C28560F5A006370A3 /* AssetSummaryData.swift */,
+				38E14A31285CB34200087733 /* TapMenuView.swift */,
+				38E14A33285CB9B600087733 /* AssetCardSectionView.swift */,
 			);
 			path = AssetSummaryView;
 			sourceTree = "<group>";
@@ -233,8 +239,10 @@
 				382E5D882848EF2E006A3273 /* ContentView.swift in Sources */,
 				382E5D862848EF2E006A3273 /* MyAssetsApp.swift in Sources */,
 				38F106FE284E167300B2D81C /* AssetMenu.swift in Sources */,
+				38E14A32285CB34200087733 /* TapMenuView.swift in Sources */,
 				38E5B5DE285619D2004107B9 /* AssetSectionView.swift in Sources */,
 				383836ED285225CE00FC3200 /* PageControl.swift in Sources */,
+				38E14A34285CB9B600087733 /* AssetCardSectionView.swift in Sources */,
 				383836E928521BE900FC3200 /* BannerCard.swift in Sources */,
 				38F10700284E18B200B2D81C /* AssetMenuButtonStyle.swift in Sources */,
 			);

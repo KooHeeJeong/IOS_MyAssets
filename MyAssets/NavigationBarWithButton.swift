@@ -37,7 +37,7 @@ struct NavigationBarWithButton: ViewModifier {
                 let appearance = UINavigationBarAppearance()
                 //투명한 Background
                 appearance.configureWithOpaqueBackground()
-                appearance.backgroundColor = UIColor(white: 1, alpha: 0.5)
+                appearance.backgroundColor = UIColor(white: 1, alpha: 1)
                 //UINavigationBar 의 Appearance 를 커스텀한 값으로 변경
                 UINavigationBar.appearance().standardAppearance = appearance
                 UINavigationBar.appearance().compactAppearance = appearance
